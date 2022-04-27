@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <title>Box1</title>
+        <style>
+          .box span{
+              border: 1px solid black;
+              padding: 3px;
+              color: brown;
+              background-color: orange;
+
+          }
+        </style>
+    </head>
+    <body>
+        <div class="box">
+        <p>The sample data will reflect the data we will fetch later on from the API. An item in the list has a title, an url and an author. Additionally it comes with an identifier, points (which indicate how popular an article is) and a count of comments.<br> 
+            Now you can use the built-in JavaScript map functionality in your JSX. It enables you to iterate over your list of items to display them.<br> 
+            Again you will use curly braces to encapsulate the JavaScript expression in your JSX.<br>
+            Using JavaScript in<span>HTML is pretty powerful in JSX</span>. Usually you might have used map to convert one list of items to another list of items.<br> 
+            This time you use map to convert a list of items to HTML elements. Sofar,onlythetitlewillbedisplayedforeachitem.<br>
+            Let’sdisplaysomemoreoftheitemproperties.<br>
+            You can see how the map function is simply inlined in your JSX. Each item property is displayed in a  tag.<br> 
+                Moreover the url property of the item is used in the href attribute of the anchor tag. React will do all the work for you and display each item.<br> 
+                But you should add one helper for React to embrace its full potential and improve its performance.<br>
+                You have to assign a key attribute to each list element. <br>
+                That way React is able to identify added, changed and removed items when the list changes.<br> 
+                The sample list items come with an identifier already.
+
+            </p>
+    </body>
+</html>
